@@ -11,10 +11,10 @@ let package = Package(
         .executable(name: "gitinbox-test-mobile", targets: ["GitInboxTestMobile"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.0.0"),
-        .package(url: "https://github.com/apple/swift-log.git", from: "1.4.0"),
-        .package(url: "https://github.com/apple/swift-collections.git", from: "1.0.0"),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.4.0")
+        .package(url: "https://github.com/apple/swift-argument-parser.git", exact: "1.2.0"),
+        .package(url: "https://github.com/apple/swift-log.git", exact: "1.4.4"),
+        .package(url: "https://github.com/apple/swift-collections.git", exact: "1.0.4"),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.6.0")
     ],
     targets: [
         .executableTarget(
