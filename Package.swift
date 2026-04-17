@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", exact: "1.2.0"),
-        .package(url: "https://github.com/apple/swift-log.git", exact: "1.4.4"),
+        .package(url: "https://github.com/apple/swift-log.git", exact: "1.12.0"),
         .package(url: "https://github.com/apple/swift-collections.git", exact: "1.0.4"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.6.0")
     ],
